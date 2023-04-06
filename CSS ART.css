@@ -1,0 +1,338 @@
+body{
+    background-color: black;
+    animation-name: anim;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes anim{
+    0% {transform: rotate(3deg) scale(1,1); background-color: #bf9eff;}
+    25% {transform: rotate(0deg) scale(1,0.95); background-color: #cefcba;}
+    50% {transform: rotate(-3deg) scale(1,1); background-color: skyblue;}
+    75% {transform: rotate(0deg) scale(1,0.95); background-color: #fff69e;}
+    100% {transform: rotate(3deg) scale(1,1); background-color: #bf9eff;}
+}
+/*Made By Lobsang Daniel Barriga Tapia*/
+.gb_case{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 460px;
+    background-color: lightgray;
+    border-radius: 5px 5px 60px 5px;
+    box-shadow: 1px 1px 5px grey;
+
+}
+.caseH_henges{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 3px;
+    background-color: gray;
+    transform: translate(0px, -440px);
+}
+.caseV_henges1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 3px;
+    height: 20px;
+    background-color: gray;
+    transform: translate(-125px, -463px);
+}
+.caseV_henges2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 3px;
+    height: 20px;
+    background-color: gray;
+    transform: translate(125px, -483px);
+}
+/*Made By Lobsang Daniel Barriga Tapia*/
+.screen_underzone{
+    border-style: solid;
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 180px;
+    background-color: #848484;
+    border-radius: 10px 10px 40px 10px;
+    transform: translate(0px, -465px);
+}
+.redline1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 65px;
+    height: 2px;
+    background-color: darkmagenta;
+    transform: translate(-85px, -638px);
+}
+.dotmatrix_text{
+    text-align: center;
+    color: lightgray;
+    font-family: sans-serif;
+    font-size: 50%;
+    transform: translate(20px, -648px);
+}
+.blueline1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 65px;
+    height: 2px;
+    background-color: darkblue;
+    transform: translate(-85px, -659px);
+}
+.redline2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 24px;
+    height: 2px;
+    background-color: darkmagenta;
+    transform: translate(105px, -667px);
+}
+.blueline2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 24px;
+    height: 2px;
+    background-color: darkblue;
+    transform: translate(105px, -663px);
+}
+.screen{
+    border-style: solid;
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 160px;
+    height: 140px;
+    background-image: linear-gradient(to bottom right, #4E6012, #91B51C);
+    transform: translate(0px, -655px);
+}
+.battery_light{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 60px 60px 60px 60px;
+    width: 10px;
+    height: 10px;
+    background-image: radial-gradient(circle, pink, red, darkred, black);
+    transform: translate(-106px, -750px);
+}
+.battery_text{
+    text-align: center;
+    color: lightgray;
+    font-family: sans-serif;
+    font-size: 48%;
+    transform: translate(-102px, -752px);
+}
+.bluetxt_nintendo{
+    text-align: center;
+    color: darkblue;
+    font-family: sans-serif;
+    font-size: 90%;
+    transform: translate(-95px, -670px);
+}
+.bluetxt_gameboy{
+    text-align: center;
+    color: darkblue;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 120%;
+    transform: translate(-10px, -709px);
+}
+.bluetxt_tm{
+    text-align: center;
+    color: darkblue;
+    font-family: sans-serif;
+    font-size: 50%;
+    transform: translate(49px, -740px);
+}
+.dpadholder{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    height: 90px;
+    background-image: linear-gradient(#e0e0e0, lightgray, #b2b2b2, #b2b2b2, #909090);
+    transform: translate(-89px, -725px) rotate(-22deg);
+    border-radius: 60px 60px 60px 60px;
+}
+.dpadV{
+    margin-left: auto;
+    margin-right: auto;
+    width: 23px;
+    height: 72px;
+    background-color: black;
+    transform: translate(-89px, -807px);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 1px 1px 5px grey;
+}
+.dpadH{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    height: 23px;
+    background-color: black;
+    transform: translate(-90px, -854px);
+    border-radius: 3px 3px 3px 3px;
+    
+}
+.dpadC{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20px;
+    height: 20px;
+    background-image: radial-gradient(farthest-corner at 90% 70%, black, black, lightgray);
+    transform: translate(-90px, -877px);
+    border-radius: 60px 60px 60px 60px;
+}
+.buttonholder{
+    margin-left: auto;
+    margin-right: auto;
+    width: 98px;
+    height: 45px;
+    background-image: linear-gradient(#e0e0e0, lightgray, #b2b2b2, #969696, #909090);
+    transform: translate(90px, -915px) rotate(-22deg);
+    border-radius: 60px 60px 60px 60px;
+}
+.button1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 33px;
+    height: 33px;
+    background-image: radial-gradient(farthest-corner at 110% 100%, white, purple, purple);
+    transform: translate(67px, -946px);
+    border-style: solid;
+    border-color: purple;
+    border-width: 1px;
+    border-radius: 60px 60px 60px 60px;
+    box-shadow: -1px -1px 5px grey;
+}
+.button2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 33px;
+    height: 33px;
+    background-image: radial-gradient(farthest-corner at 110% 100%, white, purple, purple);
+    transform: translate(115px, -1000px);
+    border-style: solid;
+    border-color: purple;
+    border-width: 1px;
+    border-radius: 60px 60px 60px 60px;
+    box-shadow: -1px -1px 5px grey;
+}
+.selectbutton{
+    margin-left: auto;
+    margin-right: auto;
+    width: 33px;
+    height: 10px;
+    background-image: linear-gradient(#505050, gray, gray, lightgray, lightgray);
+    transform: translate(-32px, -940px) rotate(-25deg);
+    border-style: solid;
+    border-color: #505050;
+    border-width: 1px;
+    border-radius: 60px 60px 60px 60px;
+    box-shadow: 1px 1px 5px grey;
+}
+.startbutton{
+    margin-left: auto;
+    margin-right: auto;
+    width: 33px;
+    height: 10px;
+    background-image: linear-gradient(#505050, gray, gray, lightgray, lightgray);
+    transform: translate(15px, -953px) rotate(-25deg);
+    border-style: solid;
+    border-color: #505050;
+    border-width: 1px;
+    border-radius: 60px 60px 60px 60px;
+    box-shadow: 1px 1px 5px grey;
+}
+.selectbtntext{
+    text-align: center;
+    color: darkblue;
+    font-family: sans-serif;
+    font-size: 55%;
+    transform: translate(-25px, -960px) rotate(-25deg);
+}
+.startbtntext{
+    text-align: center;
+    color: darkblue;
+    font-family: sans-serif;
+    font-size: 55%;
+    transform: translate(20px, -979px) rotate(-25deg);
+}
+.speaker1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 45px;
+    height: 5px;
+    background-color: gray;
+    transform: translate(52px, -953px) rotate(60deg);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #505050;
+    border-radius: 60px 60px 60px 60px;
+}
+/*Made By Lobsang Daniel Barriga Tapia*/
+.speaker2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 45px;
+    height: 5px;
+    background-color: gray;
+    transform: translate(68px, -968px) rotate(60deg);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #505050;
+    border-radius: 60px 60px 60px 60px;
+}
+.speaker3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 45px;
+    height: 5px;
+    background-color: gray;
+    transform: translate(84px, -983px) rotate(60deg);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #505050;
+    border-radius: 60px 60px 60px 60px;
+}
+.speaker4{
+    margin-left: auto;
+    margin-right: auto;
+    width: 45px;
+    height: 5px;
+    background-color: gray;
+    transform: translate(100px, -998px) rotate(60deg);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #505050;
+    border-radius: 60px 60px 60px 60px;
+}
+/*Made By Lobsang Daniel Barriga Tapia*/
+.speaker5{
+    margin-left: auto;
+    margin-right: auto;
+    width: 45px;
+    height: 5px;
+    background-color: gray;
+    transform: translate(115px, -1013px) rotate(60deg);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #505050;
+    border-radius: 60px 60px 60px 60px;
+}
+/*Made By Lobsang Daniel Barriga Tapia*/
+.speaker6{
+    margin-left: auto;
+    margin-right: auto;
+    width: 45px;
+    height: 5px;
+    background-color: gray;
+    transform: translate(130px, -1028px) rotate(60deg);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #505050;
+    border-radius: 60px 60px 60px 60px;
+}
+#music{
+    opacity: 0;
+}
